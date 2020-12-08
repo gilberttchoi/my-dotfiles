@@ -1,0 +1,10 @@
+[user]
+name = Gilbert Tchoi
+email = 17569832+gilberttchoi@users.noreply.github.com
+
+[alias]
+st = status
+pua = pull --all
+feap = fetch --prune --all
+co = checkout
+cob = checkout -b
