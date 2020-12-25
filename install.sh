@@ -5,6 +5,7 @@
 
 # Shell related setup (changing default shell to ZSH)
 ./shell/setup.sh
+./shell/ohmyzshsetup.sh
 
 # Snap apps install
 ./scripts/snap.sh

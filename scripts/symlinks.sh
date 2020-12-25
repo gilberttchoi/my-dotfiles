@@ -1,3 +1,3 @@
-ln -sv “~/.my-dotfiles/git/.gitconfig” ~
-ln -sv “~/.my-dotfiles/shell/.zshrc ~
-ln -sv “~/.my-dotfiles/shell/.tmux.config ~
+ln -s $(pwd)/../git/.gitconfig ~/.gitconfig
+ln -s $(pwd)/../shell/.zshrc ~/.zshrc
+ln -s $(pwd)/../shell/.tmux.conf ~/.tmux.conf
