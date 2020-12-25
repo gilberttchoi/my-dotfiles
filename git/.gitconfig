@@ -8,3 +8,6 @@ pua = pull --all
 feap = fetch --prune --all
 co = checkout
 cob = checkout -b
+
+[push]
+	default = current
