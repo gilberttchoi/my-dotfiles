@@ -80,7 +80,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z git zsh-autosuggestions poetry zsh-nvm)
+plugins=(z git zsh-autosuggestions poetry zsh-nvm docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -145,3 +145,11 @@ export CHROME_PATH="/snap/bin/brave"
 
 # auto laod the version of node defined in the current project .nvmrc
 export NVM_AUTO_USE=true
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/versions/3.9.1/bin:$PATH"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+

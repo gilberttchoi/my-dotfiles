@@ -12,3 +12,6 @@
 
 # Setup symlinks for zsh and git config
 ./scripts/symlinks.sh
+
+# Install programs via git clone + make many more assumptions
+./scripts/gitcloneprograms.sh
